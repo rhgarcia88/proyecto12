@@ -1,0 +1,17 @@
+.simon-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.simon-button.active {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.red { background-color: rgb(173, 64, 64); }
+.green { background-color: rgb(28, 136, 33); }
+.blue { background-color: rgb(48, 54, 138); }
+.yellow { background-color: rgb(168, 179, 48); }
